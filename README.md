@@ -1,4 +1,4 @@
-# Catálogo de Datos — Rumbo a Casa
+# Catálogo de Datos: Rumbo a Casa
 
 **Rumbo a Casa** es una propuesta desarrollada para el **MAD Open Data Challenge 2026**, organizado por la Universidad Carlos III de Madrid en colaboración con la Comunidad de Madrid. Aprovechando los portales de datos abiertos tanto de la Comunidad como del Ayuntamiento de Madrid, hemos diseñado una aplicación de rutas peatonales inteligentes y más seguras, priorizando calles principales bien iluminadas y la cercanía a puntos de refugio y asistencia abiertos (como farmacias de guardia, comisarías u hospitales con urgencias).
 
@@ -53,7 +53,7 @@ A continuación se detallan las carpetas estructuradas:
   - `oficinas_farmacia_comunidad.csv`: Registro oficial completo de todas las oficinas de farmacia autorizadas de la Comunidad de Madrid.
   - `farmacias_chamberi_corregidas.csv`: Fichero de auditoría con validación manual de coordenadas y horarios para el distrito piloto de Chamberí.
   - `LEEME.MD`: Ficha técnica de descarga.
-- **Fuente**: [Portal de Datos Abiertos del Ayuntamiento de Madrid — Farmacias de Guardia](https://datos.madrid.es/dataset/214440-0-farmacias-guardia) / Colegio Oficial de Farmacéuticos de Madrid (COFM).
+- **Fuente**: [Portal de Datos Abiertos del Ayuntamiento de Madrid - Farmacias de Guardia](https://datos.madrid.es/dataset/214440-0-farmacias-guardia) / Colegio Oficial de Farmacéuticos de Madrid (COFM).
 - **Licencia**: Creative Commons Attribution 4.0 International (CC BY 4.0).
 - **Propósito**: Base para alimentar la red de farmacias nocturnas y de guardia como puntos de refugio prioritarios.
 
@@ -63,7 +63,7 @@ A continuación se detallan las carpetas estructuradas:
 - **Archivos**:
   - `300573-0-unidades-luminosas-farolas.csv.csv`: Censo municipal exhaustivo de unidades luminosas en vía pública de Madrid (~23.7 MB).
   - `LEEME.MD`: Ficha técnica y definiciones del área de alumbrado del Ayuntamiento de Madrid.
-- **Fuente**: [Portal de Datos Abiertos — Unidades Luminosas (Farolas)](https://datos.madrid.es/dataset/300573-0-unidades-luminosas-farolas).
+- **Fuente**: [Portal de Datos Abiertos - Unidades Luminosas (Farolas)](https://datos.madrid.es/dataset/300573-0-unidades-luminosas-farolas).
 - **Licencia**: CC BY 4.0.
 - **Detalle Conceptual**:
   - **Unidad Luminosa**: Soporte físico que proporciona luz con independencia del número de luminarias (p. ej., un báculo con sodio a calzada y globo LED para acera es 1 unidad).
@@ -78,7 +78,7 @@ A continuación se detallan las carpetas estructuradas:
   - `300582-2-unidades-luminosas-farolas--csv.csv`
   - `300582-6-unidades-luminosas-farolas--csv.csv`
   - `LEEME.MD`: Ficha técnica.
-- **Fuente**: [Portal de Datos Abiertos — Farolas en Parques Singulares](https://datos.madrid.es/dataset/300582-0-unidades-luminosas-farolas-).
+- **Fuente**: [Portal de Datos Abiertos - Farolas en Parques Singulares](https://datos.madrid.es/dataset/300582-0-unidades-luminosas-farolas-).
 - **Licencia**: CC BY 4.0.
 - **Propósito**: Complementar el censo de alumbrado de viales con las farolas instaladas en el interior de parques públicos históricos y zonas verdes protegidas.
 
@@ -88,7 +88,7 @@ A continuación se detallan las carpetas estructuradas:
 - **Archivos**:
   - `211642-3-bomberos-parques-csv.csv`: Relación de los parques del Cuerpo de Bomberos del Ayuntamiento de Madrid.
   - `LEEME.MD`: Ficha técnica.
-- **Fuente**: [Portal de Datos Abiertos — Parques de Bomberos](https://datos.madrid.es/dataset/211642-0-bomberos-parques).
+- **Fuente**: [Portal de Datos Abiertos - Parques de Bomberos](https://datos.madrid.es/dataset/211642-0-bomberos-parques).
 - **Licencia**: CC BY 4.0.
 - **Propósito**: Representar instalaciones públicas de emergencia con presencia permanente 24h/365d como puntos seguros de resguardo.
 
@@ -98,7 +98,7 @@ A continuación se detallan las carpetas estructuradas:
 - **Archivos**:
   - `200075-1-callejero-csv.csv`: Censo municipal oficial de viales y numeraciones postales de Madrid (~96 MB).
   - `LEEME.MD`: Ficha técnica.
-- **Fuente**: [Portal de Datos Abiertos — Callejero Vigente](https://datos.madrid.es/dataset/200075-0-callejero).
+- **Fuente**: [Portal de Datos Abiertos - Callejero Vigente](https://datos.madrid.es/dataset/200075-0-callejero).
 - **Licencia**: CC BY 4.0.
 - **Contenido**: Más de 10.000 viales y 200.000 portales con coordenadas métricas oficiales, cruces de viales y códigos postales. Sirve de geocodificador maestro y validación de nombres de vía.
 
@@ -108,7 +108,7 @@ A continuación se detallan las carpetas estructuradas:
 - **Archivos**:
   - `300600-2-comisaria-csv.csv`: Directorio municipal georreferenciado de comisarías de policía.
   - `LEEME.MD`: Ficha técnica.
-- **Fuente**: [Portal de Datos Abiertos — Comisarías](https://datos.madrid.es/dataset/300600-0-comisaria).
+- **Fuente**: [Portal de Datos Abiertos - Comisarías](https://datos.madrid.es/dataset/300600-0-comisaria).
 - **Licencia**: CC BY 4.0.
 - **Contenido**: Comisarías de Policía Nacional (atención 24h), Unidades Integrales de Distrito de Policía Municipal y Oficinas de Atención al Ciudadano (OAC).
 
@@ -118,7 +118,7 @@ A continuación se detallan las carpetas estructuradas:
 - **Archivos**:
   - `LEEME.MD`: Documentación detallada del criterio de integración y catálogo de hospitales en Chamberí.
   *(Nota: El archivo de datos base municipal se encuentra en la raíz de `raw/`: `212769-0-atencion-medica-csv.csv`)*.
-- **Fuente**: [Portal de Datos Abiertos — Atención Médica](https://datos.madrid.es/dataset/212769-0-atencion-medica).
+- **Fuente**: [Portal de Datos Abiertos - Atención Médica](https://datos.madrid.es/dataset/212769-0-atencion-medica).
 - **Licencia**: CC BY 4.0.
 - **Centros Integrados con Urgencias Médicas Continuadas (24h)**:
   1. *Hospital Universitario HM Madrid* (Plaza del Conde del Valle de Súchil, 16)
