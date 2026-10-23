@@ -8,9 +8,9 @@ En este directorio se documentan y ponen a disposición los conjuntos de datos e
 
 ---
 
-## 1. Datasets Procesados y Exportados (`data/exports/`)
+## 1. Datasets Procesados y limpios para la app (`new/`)
 
-Los ficheros en `data/exports/` son conjuntos de datos consolidados, limpios y georreferenciados, listos para ser consumidos en Sistemas de Información Geográfica (**QGIS**, ArcGIS), pipelines de análisis de datos (**Python / Pandas / GeoPandas**) o aplicaciones web.
+Los ficheros en `new/` son conjuntos de datos consolidados, limpios y georreferenciados, listos para ser consumidos en Sistemas de Información Geográfica (**QGIS**, ArcGIS), pipelines de análisis de datos (**Python / Pandas / GeoPandas**) o aplicaciones web.
 
 
 ### Sistemas de Coordenadas de Referencia (CRS)
@@ -21,7 +21,7 @@ Los ficheros en `data/exports/` son conjuntos de datos consolidados, limpios y g
 
 ### 1.1. `pois` (Puntos de Interés / Refugios de Seguridad)
 - **Ficheros**:
-  - `data/exports/pois.csv` 
+  - `new/pois.csv` 
 - **Descripción**: Red unificada de puntos de apoyo y refugio ciudadano: farmacias (guardia y ordinarias), comisarías de policía, parques de bomberos y hospitales con urgencias médicas continuadas.
 
 
@@ -29,25 +29,25 @@ Los ficheros en `data/exports/` son conjuntos de datos consolidados, limpios y g
 
 ### 1.2. `lighting_points` (Puntos de Alumbrado Urbano / Farolas)
 - **Ficheros**:
-  - `data/exports/lighting_points.csv` 
+  - `new/lighting_points.csv` 
 - **Descripción**: Censo georreferenciado punto por punto de unidades luminosas en vía pública y parques urbanos de Madrid (Almendra Central y distritos extendidos).
 
 ---
 
 ### 1.3. `segments` (Tramos de la Red Peatonal)
 - **Ficheros**:
-  - `data/exports/segments.csv` 
+  - `new/segments.csv` 
 - **Descripción**: Topología de red caminable construida a partir de OpenStreetMap, limpiada, dirigida y enriquecida con atributos de seguridad e infraestructura vial.
 
 ---
 
 ## 2. Datos Originales Crudos con Carpeta (`data/raw/`)
 
-En `data/raw/` se preservan los ficheros originales descargados de los portales institucionales de datos abiertos para garantizar trazabilidad y reproducibilidad.
+En `raw/` se preservan los ficheros originales descargados de los portales institucionales de datos abiertos para garantizar trazabilidad y reproducibilidad.
 
 A continuación se detallan las carpetas estructuradas:
 
-### 2.1. `data/raw/Farmacias/`
+### 2.1. `raw/Farmacias/`
 - **Archivos**:
   - `214440-3-farmacias-guardia-csv.csv`: Catálogo municipal de farmacias de guardia de Madrid.
   - `oficinas_farmacia_comunidad.csv`: Registro oficial completo de todas las oficinas de farmacia autorizadas de la Comunidad de Madrid.
@@ -59,7 +59,7 @@ A continuación se detallan las carpetas estructuradas:
 
 ---
 
-### 2.2. `data/raw/alumbrado_calles/`
+### 2.2. `raw/alumbrado_calles/`
 - **Archivos**:
   - `300573-0-unidades-luminosas-farolas.csv.csv`: Censo municipal exhaustivo de unidades luminosas en vía pública de Madrid (~23.7 MB).
   - `LEEME.MD`: Ficha técnica y definiciones del área de alumbrado del Ayuntamiento de Madrid.
@@ -72,7 +72,7 @@ A continuación se detallan las carpetas estructuradas:
 
 ---
 
-### 2.3. `data/raw/alumbrado_parques/`
+### 2.3. `raw/alumbrado_parques/`
 - **Archivos**:
   - `300582-0-unidades-luminosas-farolas--csv.csv`
   - `300582-2-unidades-luminosas-farolas--csv.csv`
@@ -84,7 +84,7 @@ A continuación se detallan las carpetas estructuradas:
 
 ---
 
-### 2.4. `data/raw/bomberos/`
+### 2.4. `raw/bomberos/`
 - **Archivos**:
   - `211642-3-bomberos-parques-csv.csv`: Relación de los parques del Cuerpo de Bomberos del Ayuntamiento de Madrid.
   - `LEEME.MD`: Ficha técnica.
@@ -94,7 +94,7 @@ A continuación se detallan las carpetas estructuradas:
 
 ---
 
-### 2.5. `data/raw/callejero/`
+### 2.5. `raw/callejero/`
 - **Archivos**:
   - `200075-1-callejero-csv.csv`: Censo municipal oficial de viales y numeraciones postales de Madrid (~96 MB).
   - `LEEME.MD`: Ficha técnica.
@@ -104,7 +104,7 @@ A continuación se detallan las carpetas estructuradas:
 
 ---
 
-### 2.6. `data/raw/comisarías/`
+### 2.6. `raw/comisarías/`
 - **Archivos**:
   - `300600-2-comisaria-csv.csv`: Directorio municipal georreferenciado de comisarías de policía.
   - `LEEME.MD`: Ficha técnica.
@@ -114,7 +114,7 @@ A continuación se detallan las carpetas estructuradas:
 
 ---
 
-### 2.7. `data/raw/hospitales/`
+### 2.7. `raw/hospitales/`
 - **Archivos**:
   - `LEEME.MD`: Documentación detallada del criterio de integración y catálogo de hospitales en Chamberí.
   *(Nota: El archivo de datos base municipal se encuentra en la raíz de `raw/`: `212769-0-atencion-medica-csv.csv`)*.
